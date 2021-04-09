@@ -1,6 +1,6 @@
 BIN=fft-test
 CC=arm-linux-gnueabihf-gcc
-CFLAGS= 
+CFLAGS= -mthumb -march=armv7-a -mfpu=neon -ffast-math
 LIBS=./lib/libNE10.a
 
 INCS=-I./include/ 

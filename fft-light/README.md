@@ -1,4 +1,4 @@
-Light Neon fft Code which only employ float32 fft and ifft 
+Light Neon fft Code which only employ float32 fft and ifft   
 Usage:
 ```
 make 
